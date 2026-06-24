@@ -1,0 +1,16 @@
+{
+  "name": "NeedALoanToday",
+  "short_name": "NeedALoanToday",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#10b981",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
