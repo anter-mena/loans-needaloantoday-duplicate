@@ -146,9 +146,7 @@ const CTASection = () => {
 
             <div className="flex flex-wrap gap-4 justify-center">
               <a
-                href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=needaloantoday"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/application-form"
                 onClick={() => {
                   if (typeof window !== "undefined" && (window as any).gtag) {
                     (window as any).gtag("event", "loan_application_click", {

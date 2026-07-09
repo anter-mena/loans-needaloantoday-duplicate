@@ -185,9 +185,7 @@ const FeaturesShowcase = () => {
                 {/* Push button to bottom */}
                 <div className="mt-auto">
                   <a
-                    href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=needaloantoday"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/application-form"
                     onClick={() => {
                       if (typeof window !== "undefined" && (window as any).gtag) {
                         (window as any).gtag("event", "loan_application_click", {
@@ -281,9 +279,7 @@ const FeaturesShowcase = () => {
                 <div className="mt-auto">
                   <div className="flex items-center gap-4">
                     <a
-                      href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=needaloantoday"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="/application-form"
                       onClick={() => {
                         if (typeof window !== "undefined" && (window as any).gtag) {
                           (window as any).gtag("event", "loan_application_click", {

@@ -317,9 +317,7 @@ const Navbar = ({ isBannerVisible }: NavbarProps) => {
           <div className="flex items-center gap-2 sm:gap-3">
             {/* Desktop Apply Button */}
             <a
-              href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=needaloantoday"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/application-form"
               className="hidden lg:block"
             >
               <Button
@@ -445,9 +443,7 @@ const Navbar = ({ isBannerVisible }: NavbarProps) => {
                 {/* Mobile Apply Button */}
                  <div className="pt-4">
                     <a
-                     href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=needaloantoday"
-                     target="_blank"
-                     rel="noopener noreferrer"
+                     href="/application-form"
                    >
                      <Button
                        className="w-full bg-[hsl(160,84%,39%)] text-white hover:bg-[hsl(160,84%,35%)] ring-2 ring-[hsl(160,84%,39%)] ring-offset-2 ring-offset-[hsl(215,28%,12%)] outline-none rounded-md py-4 font-bold font-dm-sans text-sm"

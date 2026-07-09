@@ -106,9 +106,7 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap gap-4 mb-14 justify-center lg:justify-start">
               <a
-                href="https://cmi.rocks/go/6a0768c8e9dee?affiliate_sub1=needaloantoday"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/application-form"
                 onClick={() => {
                   if (typeof window !== "undefined" && (window as any).gtag) {
                     (window as any).gtag("event", "loan_application_click", {
